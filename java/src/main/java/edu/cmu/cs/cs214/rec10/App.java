@@ -74,6 +74,7 @@ public class App extends NanoHTTPD {
             System.out.println("Loaded plugin " + plugin.getGameName());
             result.add(plugin);
         }
+        // return result
         return result;
     }
 }
